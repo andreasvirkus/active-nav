@@ -10,12 +10,19 @@ Be sure to have a `<ul>` tag  with the ID assigned to the JS var `topMenu`
         <a href="#">Top</a>
       </li>
       <li>
-        <a href="#html">Foo</a>
+        <a href="#foo">Foo</a>
       </li>
       <li>
         <a href="#bar">Bar</a>
       </li>
     </ul>
+    
+        ..
+    <div id="foo"></div>
+
+    <div id="bar"></div>
+
+
 
 
 ## JavaScript
