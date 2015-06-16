@@ -17,7 +17,7 @@ Be sure to have a `<ul>` tag  with the ID assigned to the JS var `topMenu`
       </li>
     </ul>
     
-        ..
+        
     <div id="foo"></div>
 
     <div id="bar"></div>
