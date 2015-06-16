@@ -45,23 +45,20 @@ body {
     color: #333;
 }
 
-#foo {
+
+.filler {
     height: 600px;
-    background-color: #8e44ad;
+    background-color: #222;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    border-radius: 5px;
 }
 
-#bar {
-    height: 800px;
-    background-color: #34495e;
-    
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+#foo, #bar {
+    color: #222;
     margin-top: 80px;
+
 }
 
 #fakeHeight {
