@@ -14,13 +14,16 @@ body {
     left: 0;
     right: 0;
     top: 0;
-    height: 60px;
     list-style: none;
     margin: 0;
 }
 
 #top-menu li {
     float: left;
+    min-width: 80px;
+    width: 10%;
+    margin-left: 5%;
+    padding-bottom: 20px;
 }
 
 #top-menu a {
@@ -31,18 +34,23 @@ body {
     -webkit-transition: .5s all ease-out;
     -moz-transition: .5s all ease-out;
     transition: .5s all ease-out;
-    border-top: 3px solid white;
     color: #aaa;
     text-decoration: none;
 }
 
 #top-menu a:hover {
     color: #000;
+    background-color: #e67e22;
+}
+
+#top-menu li:hover {
+    background-color: #F2F1EF;
+    color: #222;
 }
 
 #top-menu li.active a {
-    border-top: 3px solid #333;
-    color: #333;
+    color: #fff;
+    background-color: #e74c3c;
 }
 
 
@@ -163,7 +171,7 @@ p {
     left:77px; /* 81 */
 }
 .logo:hover #sdew_2 p {
-    color: #E16036;
+    color: #e74c3c;
 }
 #sdew_3{
     font-size:64px;
